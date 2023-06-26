@@ -14,13 +14,13 @@ $(call inherit-product, device/xiaomi/renoir/device.mk)
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := renoir
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_MODEL := M2101K9G
+PRODUCT_MODEL := M2101K9C
 PRODUCT_NAME := aospa_renoir
 
 # DerpFest Stuffs
 TARGET_BOOT_ANIMATION_RES := 1080
 
-PRODUCT_SYSTEM_NAME := renoir_global
+PRODUCT_SYSTEM_NAME := renoir
 PRODUCT_SYSTEM_DEVICE := renoir
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
