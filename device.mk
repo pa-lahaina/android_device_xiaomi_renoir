@@ -23,6 +23,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/display/display_id_4630946480857061762.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/display_id_4630946480857061762.xml \
     $(LOCAL_PATH)/configs/display/display_id_4630946545580055170.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/display_id_4630946545580055170.xml
 
+# Kernel
+KERNEL_MODULES_INSTALL := dlkm
+KERNEL_MODULES_OUT := $(OUT_DIR)/target/product/lisa/$(KERNEL_MODULES_INSTALL)/lib/modules
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
