@@ -24,6 +24,7 @@ KERNEL_MODULES_OUT := $(OUT_DIR)/target/product/lisa/$(KERNEL_MODULES_INSTALL)/l
 
 # Overlays
 PRODUCT_PACKAGES += \
+    AOSPARenoirFramerowksResOverlay \
     RenoirFramerowksResOverlay \
     RenoirSettingsProviderResOverlay \
     RenoirSettingsResOverlay \
