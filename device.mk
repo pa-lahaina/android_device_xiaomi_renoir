@@ -10,6 +10,7 @@ $(call inherit-product, device/xiaomi/sm8350-common/common.mk)
 COMMON_PATH := device/xiaomi/sm8350-common
 
 PRODUCT_COPY_FILES += \
+    $(COMMON_PATH)/configs/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/audio_policy_configuration.xml \
     $(COMMON_PATH)/configs/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_shima_qssi/audio_policy_configuration.xml
 
 # Display Config
