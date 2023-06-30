@@ -23,11 +23,12 @@ KERNEL_MODULES_INSTALL := dlkm
 KERNEL_MODULES_OUT := $(OUT_DIR)/target/product/lisa/$(KERNEL_MODULES_INSTALL)/lib/modules
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay
-
 PRODUCT_PACKAGES += \
-    WifiResRenoir
+    RenoirFramerowksResOverlay \
+    RenoirSettingsProviderResOverlay \
+    RenoirSettingsResOverlay \
+    RenoirSystemUIResOverlay \
+    RenoirWifiResOverlay
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
