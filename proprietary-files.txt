@@ -17,12 +17,36 @@ vendor/etc/acdbdata/nn_vad_models/fai_3.0.0_0.0_eai_1.00.pmd
 vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.10.pmd
 vendor/etc/acdbdata/adsp_avs_config.acdb
 
-# ACDB libraries
+# Audio
+vendor/lib/liba2dpoffload.so
 vendor/lib/libacdb-fts.so
 vendor/lib/libacdbloader.so
 vendor/lib/libacdbrtac.so
 vendor/lib/libadiertac.so
+vendor/lib/libadm.so
 vendor/lib/libaudcal.so
+vendor/lib/libaudioalsa.so
+vendor/lib/libaudioconfigstore.so
+vendor/lib/libaudioparsers.so
+vendor/lib/libbatterylistener.so
+vendor/lib/libcomprcapture.so
+vendor/lib/libdrc.so
+vendor/lib/libexthwplugin.so
+vendor/lib/libhdmiedid.so
+vendor/lib/libhdmipassthru.so
+vendor/lib/libhfp.so
+vendor/lib/libqtigef.so
+vendor/lib/libsndmonitor.so
+vendor/lib/libspkrprot.so
+vendor/lib/libssrec.so
+vendor/lib/libsurround_3mic_proc.so
+vendor/lib/libvideoNS.so
+vendor/lib/soundfx/libasphere.so
+vendor/lib/soundfx/libmisoundfx.so
+vendor/lib/soundfx/libqcompostprocbundle.so
+vendor/lib/soundfx/libqcomvisualizer.so
+vendor/lib/soundfx/libqcomvoiceprocessing.so
+vendor/lib/soundfx/libshoebox.so
 
 # ADSP modules
 vendor/lib/rfsa/adsp/bm2n06.bin
@@ -89,6 +113,14 @@ vendor/etc/audio/sku_shima/sound_trigger_platform_info.xml
 
 # Audio firmware
 vendor/firmware/tfa98xx.cnt
+
+# Audio HAL
+vendor/lib/hw/audio.primary.lahaina.so
+vendor/lib/libaudio_log_utils.so
+vendor/lib/libaudiocloudctrl.so
+vendor/lib/libaudioroute_ext.so
+vendor/lib/libmmhardware.so
+vendor/lib/libresampler.so
 
 # Camera
 vendor/etc/camera/xiaomi/dualbokehjpegsnapshot.json
